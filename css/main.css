@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.row img
+{
+	width: 99%;
+	padding-left: 1%;
+}
+.khoangcach
+{
+	margin: 2%;
+}
+.col-lg-6 h1
+{
+	text-align: left;
+}
+.col-lg-6 p
+{
+	text-align:justify;
+}
+.out 
+{
+	text-align: center;
+	margin: 2%;
+	background-color: orange;
+	height: 100px;
+
+}
+.col-lg-6 p
+{
+	color:#565656;
+}
+.col-lg-6 h1
+{
+	color: orange;
+}
+.col-lg-12 h6
+{
+	padding-top: 45px;
+}
+.col-lg-12 h2
+{
+	color:orange;
+}
+.col-lg-12 h1
+{
+	color: white;
+}
+.card img
+{
+	transition: all.1s linear;	
+	position: relative;
+}
+.card:hover img
+{
+	opacity: 0.8;
+	transform: scale(0.9);
+}
+.lable
+{
+	width: 120px;
+	height: 40px;
+	background-color: orange;
+	opacity: 1;
+	position: absolute;
+	border-radius: 10px;
+	top:4%;
+	left:4%;
+	opacity: 0;
+}
+.lable h6
+{
+	text-align: center;
+	padding-top: 7.5px;
+	color: white;
+}
+.card .lable
+{
+	opacity: 0;
+}
+.card:hover .lable
+{
+	opacity: 1;
+}
